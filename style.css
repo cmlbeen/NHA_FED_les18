@@ -1,0 +1,64 @@
+@media screen and (min-width: 768px) {
+    @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    padding: 1%;
+  }
+  
+  header {
+    background-image: url('https://placehold.jp/3d4070/ffffff/150x150.png');
+    background-size: cover;
+    font-family: 'Protest Guerrilla', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .plaatsnaam {
+    font-size: 2em;
+  }
+  
+  main {
+    display: flex;
+  }
+  
+  .links {
+    flex: 2;
+    padding: 1%;
+  }
+  
+  .rechts {
+    flex: 9;
+    padding: 1%;
+    background-color: #f0f0f0;
+    flex-direction: column;
+  }
+  
+  .feiten {
+    padding: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .toerisme article {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .toerisme img {
+    align-self: flex-end;
+    margin-left: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+}
